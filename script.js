@@ -4,4 +4,11 @@ function Acciojob(){
 }
 Acciojob()
 
+function functionName() {
+      alert(arguments.callee.name);
+    }
+
+    // Call the function
+    functionName();
+
 
